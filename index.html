@@ -23,9 +23,9 @@
     </div>
 
     <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+      <h1 class="welcome-header__title">Kokoa</h1>
       <p class="welcome-header__text">
-        If you have a Kakao Account, log in with your email or phone number.
+        이메일 또는 전화번호를 통해</br>코코아톡으로 로그인 해 보세요.
       </p>
     </header>
 
@@ -34,12 +34,16 @@
         name="username"
         required="email"
         type="text"
-        placeholder="Email or phone number"
+        placeholder="카카오계정 (이메일 또는 전화번호)"
       />
-      <input name="password" type="password" placeholder="Password" />
-      <input type="submit" value="Log In" />
-      <a href="#">Find Kokoa Account or Password</a>
+      <input name="password" type="password" placeholder="비밀번호" />
+      <input type="submit" value="로그인" />
+      <a href="#" id="findId">카카오계정 찾기 | 비밀번호 재설정</a>
     </form>
+
+    <div id="no-mobile">
+      <span>화면크기가 너무 큽니다ㅠㅠ</span>
+    </div>
 
     <script
       src="https://kit.fontawesome.com/f98462e453.js"

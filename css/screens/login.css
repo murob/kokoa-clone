@@ -9,11 +9,13 @@
 .welcome-header__title {
   margin-bottom: 20px;
   font-size: 25px;
+  font-weight: 600;
 }
 
 .welcome-header__text {
   width: 60%;
   opacity: 0.7;
+  font-weight: 600;
 }
 
 #login-form {
@@ -26,6 +28,7 @@
   border: none;
   padding: 15px 0px;
   font-size: 18px;
+  font-weight: 600;
   margin-bottom: 25px;
   transition: border-color 0.3s ease-in-out;
 }
@@ -54,4 +57,9 @@
   text-decoration: none;
   color: inherit;
   font-size: 13px;
+}
+
+#findId {
+  opacity: 0.6;
+  font-weight: 600;
 }
