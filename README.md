@@ -1,3 +1,5 @@
-# Kokoa clone 2021 Update
+# Kokoa clone 2021
 
-HTML & CSS are so much fun!
+This is KakaoTalk Clone coding.
+
+It was coded only with html and css.
